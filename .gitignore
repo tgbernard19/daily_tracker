@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -15,14 +16,24 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.env
-.venv
+
+# Virtual Environment
 venv/
 ENV/
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
 .idea/
 .vscode/
-*.sqlite
-#.db
+*.swp
+*.swo
+
+# Environment variables
+.env

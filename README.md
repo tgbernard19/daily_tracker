@@ -1,28 +1,10 @@
-# daily_tracker
 daily_tracker/
 │
-├── requirements.txt
-├── .gitignore
-├── README.md
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config.py
-│   ├── database.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   └── models.py
-│   ├── schemas/
-│   │   ├── __init__.py
-│   │   └── schemas.py
-│   ├── api/
-│   │   ├── __init__.py
-│   │   └── endpoints/
-│   │       ├── __init__.py
-│   │       └── daily_entry.py
-│   └── utils/
-│       ├── __init__.py
-│       └── helpers.py
-└── tests/
-    ├── __init__.py
-    └── test_api.py
+├── app/                    # Main application directory
+│   ├── api/               # API routes and endpoints
+│   ├── models/            # SQLAlchemy database models
+│   ├── schemas/           # Pydantic models for request/response
+│   └── utils/             # Helper functions and utilities
+│
+├── tests/                 # Test directory
+└── requirements.txt       # Project dependencies
